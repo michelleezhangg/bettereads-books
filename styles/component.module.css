@@ -1,0 +1,55 @@
+.card {
+    text-align: left;
+    border: 1px solid black;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+
+  }
+
+.cards {
+  justify-content: flex-end;
+}
+
+  
+.cardgrid {
+  display: grid;
+  grid-template-columns: repeat(5, 300px);
+  grid-gap: 20px;
+  max-width: none;
+}
+
+.cardg {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.title {
+  font-size: large;
+  font-weight: bold;
+}
